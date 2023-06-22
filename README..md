@@ -2,18 +2,18 @@
 este es un proyecto para practicar y profundizar conocimientos en git utilizando gitflow como metodologia,
 
 # herramientas
-*vscode
-*git 
-*github
+* vscode
+* git 
+* github
 
 
 # lenguajes
-*HTLML
-*CSS
-*JS
+* HTLML
+* CSS
+* JS
 
 # metodologia
-GIT FLOW
+* gitfolw
 
-# DEvcelop by
-GINA MARCELA TAMAYO CASTAÑED
+# Decelop by
+Gina Tamayo
