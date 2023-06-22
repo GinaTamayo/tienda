@@ -1,0 +1,23 @@
+tr{
+    padding: 100px;
+    margin: 80px;
+}
+h1{
+    color: rgb(41, 51, 51);
+    text-align: center;
+    font-size: 80px;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table td{
+   margin: 50px;
+   float: left;
+   display: block;
+   font-size: 50px;
+}
+table td img{
+    width: 160px;
+}
