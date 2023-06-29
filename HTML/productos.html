@@ -7,22 +7,82 @@
     <link rel="stylesheet" href="../CSS/productos.css">
 </head>
 <body>
-    <div class="wrapper">
-        <h1 class="titulo">Productos</h1>
-        <div class="container">
-        <div class="card"><img src="../image/arina.jpg"></div>
-        <span class="precio">$4.000</span>
-        <div class="card"><img src="../image/arroz.jpg"></div>
-                <span class="precio">$4.000</span>
-        <div class="card"><img src="../image/atun.jpg"></div>
-                <span class="precio">$4.000</span>
-        <div class="card"><img src="../image/frijoles.jpg"></div>
-                <span class="precio">$4.000</span>
-        <div class="card"><img src="../image/pan tajado.jpg"></div>
-                <span class="precio">$4.000</span>
-        <div class="card"><img src="../image/panela.jpg"></div>
-                <span class="precio">$4.000</span>
+        <header>
+                <h1>Productos</h1>
+                <div class="container-icon">
+                        <div class="container-cart-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                      </svg>
+                                      <div class="count-products">
+                                        <span id="contador-productos">0</span>
+                                      </div>    
+                        </div>  
+                </div>
+        </header>
+        <div class="container-items">
+                <div class="item">
+                        <figure>
+                                <img src="../image/arina.jpg">
+                        </figure>
+                        <div class="info-product">
+                                <h2>Arina Pan</h2>
+                                <p class="price">$5.000</p>
+                                <button class="btn-add-cart">Añadir al carrito</button>
+                        </div>
+                </div>
+                <div class="item">
+                        <figure>
+                                <img src="../image/arroz_diana_1kg.webp">
+                        </figure>
+                        <div class="info-product">
+                                <h2>Arroz Diana</h2>
+                                <p class="price">$4.000</p>
+                                <button class="btn-add-cart">Añadir al carrito</button>
+                        </div>
+                </div>
+                <div class="item">
+                        <figure>
+                                <img src="../image/atunagualamesa170g.jpg">
+                        </figure>
+                        <div class="info-product">
+                                <h2>Atún La Mesa</h2>
+                                <p class="price">$2.500</p>
+                                <button class="btn-add-cart">Añadir al carrito</button>
+                        </div>
+                </div>
+                <div class="item">
+                        <figure>
+                                <img src="../image/frijoles.jpg">
+                        </figure>
+                        <div class="info-product">
+                                <h2>Frijoles Granipack</h2>
+                                <p class="price">$4.200</p>
+                                <button class="btn-add-cart">Añadir al carrito</button>
+                        </div>
+                </div>
+                <div class="item">
+                        <figure>
+                                <img src="../image/pan tajado.jpg">
+                        </figure>
+                        <div class="info-product">
+                                <h2>Pan Tajado Came</h2>
+                                <p class="price">$3.000</p>
+                                <button class="btn-add-cart">Añadir al carrito</button>
+                        </div>
+                </div>
+                <div class="item">
+                        <figure>
+                                <img src="../image/panela.jpg">
+                        </figure>
+                        <div class="info-product">
+                                <h2>Panela Dulcineda</h2>
+                                <p class="price">$6.000</p>
+                                <button class="btn-add-cart">Añadir al carrito</button>
+                        </div>
+                </div>
+        
     </div>
-    </div>
+    <script src="../JS/index.js"></script>
 </body>
 </html>
